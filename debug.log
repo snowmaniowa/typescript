@@ -1,0 +1,12 @@
+[0421/120914.005:ERROR:icu_util.cc(180)] Couldn't mmap icu data file
+[0421/120914.005:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C22F9485+23093]
+	GetHandleVerifier [0x00007FF6C2369E73+484387]
+	(No symbol) [0x00007FF6C22F10D4]
+	(No symbol) [0x00007FF6C22F0113]
+	(No symbol) [0x00007FF6C2047DA0]
+	IsSandboxedProcess [0x00007FF6C52BE6AF+46632187]
+	BaseThreadInitThunk [0x00007FFB21691FE4+20]
+	(No symbol) [0x00007FFB234EF061]
+

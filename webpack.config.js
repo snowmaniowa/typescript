@@ -1,21 +1,19 @@
 module.exports = {
-    
-    entry: './src/app.ts',  //# this is our entry file
-
+    entry: './src/app.ts',
     output: {
-        filename: 'app.js.',        //# where to place the compiled output file
-        path: __dirname + './dist'  //# path of the directory to keep the compiled output file
+        filename: 'app.js',
+        path: __dirname + "./dist",
     },
     resolve: {
-        extensions: ['.ts', '.js']  //# tell webpack what to resolve
+        extensions: ['.ts', '.js'],
     },
     module: {
-        rules: [                    //# setup array of rules for compilation
-            {   
-                test: /\.ts$/,                      //# look for ts files
-                use: 'awesome-typescript-loader'    //# look for ts loader package
+        rules: [
+            { 
+                test: /\.ts$/,
+                use: 'awesome-typescript-loader',
             }
-        ]
+        ],
     },
     devServer: {
         port: 3000
