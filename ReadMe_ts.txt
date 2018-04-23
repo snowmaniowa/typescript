@@ -21,6 +21,9 @@ tsc-watch       //Use a webpack server over TSC - so that will automatcically do
 awesome-typescript-loader package?
 awesome-typescript-loader for webpack. This will automatcically pick tsc config.
 
+Globally install webpack?
+npm install webpack -g
+
 webpack config - provide devServer port
 port: 3000
 
