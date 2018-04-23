@@ -35,6 +35,9 @@ why to run server?
 yarn start          //it refers package.json> "start": "webpack-dev-server",
 webpack: Compiled successfully. :D
 
+use tslint?
+npm install -g tslint
+
 Need to run:
 web-pack-dev-server
  

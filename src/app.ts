@@ -1,38 +1,13 @@
-console.log("Hello World - TypeScript!");
+
+console.log("== Default Function Parameters ==");
+
+function multiply(a: any, b: any){
+  return a * b;
+}
+console.log(multiply(5, 10));
 
 
-//------------------------------------------------------------
-//## Topic: Array Functions and Implicit Functions 
-//------------------------------------------------------------
-//Array
-const pizzaArray = [
-  {
-    name: "chicken is awesome",
-    toppings: ["Grilled Chicken", "Black Olives"]
-  },
-  {
-    name: "Tuna is healthy",
-    toppings: ["Tuna", "Lettuce"]
-  }
-];
-
-const mappedPizzas = pizzaArray.map(function(arrayElement) {
-  return arrayElement.name.toUpperCase();
-});
-console.log(mappedPizzas);
-
-//------------------------------------------------------------
-//function is replaced with =>
-
-const refinedPizzas = pizzaArray.map(arrayElement => {
-  return arrayElement.name.toUpperCase();
-});
-console.log(refinedPizzas);
-
-//------------------------------------------------------------
-//implicit return function
-
-const implicitPizzas = pizzaArray.map(arrayElement => arrayElement.name.toUpperCase);
-console.log(implicitPizzas);
-
-//------------------------------------------------------------
+function addThreeNumbers(x: any, y: any, z = 300){
+  return x + y + z;
+}
+console.log(addThreeNumbers(100, 200));
