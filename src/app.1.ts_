@@ -1,6 +1,6 @@
 console.log("Hello World - TypeScript!");
 
-
+console.log("== 1. Array Functions and Implicit Functions == ");
 //------------------------------------------------------------
 //## Topic: Array Functions and Implicit Functions 
 //------------------------------------------------------------
